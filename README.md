@@ -10,6 +10,6 @@
 - Fitxategien ordena: Lehenengo funtzioak kargatu bestela app.js kargatzerakoan ez dira exekutatuko
 
 ## Ariketa 3 
-- [Ver Ariketa 3](/ARIKETA_3/index.html)
+- [Ver Ariketa 3](/ARIKETA_3/Ariketa3.html)
 - [Ver código fuente](/ARIKETA_3/)
 - 03a y 03b / body-an kargatzen baldin baditugu kontoslean sartzerakoan ikus dezakegu TITULUA edo 'h1' etiketa arrapatzen duela, beraz alderantziz eginda 'null' emango du.
