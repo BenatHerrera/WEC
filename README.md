@@ -5,8 +5,8 @@
 - [Explorar carpeta de JavaScript](/ARIKETA1/js/)
 
 ## Ariketa 2
-- [Ver Ariketa 2](WEC/ARIKETA2/index.html)
-- [Ver código fuente](WEC/ARIKETA2/)
+- [Ver Ariketa 2](/ARIKETA2/index.html)
+- [Ver código fuente](/ARIKETA2/)
 
 ## Ariketa 3 
 - [Ver Ariketa 3](WEC/ARIKETA3/index.html)
