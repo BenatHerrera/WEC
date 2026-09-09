@@ -1,5 +1,7 @@
 # WEC EGINDAKO ARIKETAK
 <img src="https://github.com/user-attachments/assets/73d9be3c-54f2-487f-805b-1e689c997b6e" width="500">
+
+
 ## Ariketa 1
 - [Ver la página principal (Index.html)](/ARIKETA1/Ariketa1.html)
 - [Explorar carpeta de JavaScript](/ARIKETA1/js/)
