@@ -12,4 +12,19 @@
 ## Ariketa 3 
 - [Ver Ariketa 3](/ARIKETA_3/Ariketa3.html)
 - [Ver código fuente](/ARIKETA_3/)
+
 - 03a y 03b / body-an kargatzen baldin baditugu kontoslean sartzerakoan ikus dezakegu TITULUA edo 'h1' etiketa arrapatzen duela, beraz alderantziz eginda 'null' emango du.
+
+- 03c defer jartzen baldin badugu script batean head-ean exekutatuko da berdin berdin. 
+
+- 03d
+
+## Ariketa 4
+- 
+- 
+- 
+
+## Ariketa 5-
+- 
+- 
+- 
