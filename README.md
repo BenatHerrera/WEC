@@ -25,7 +25,7 @@ Errepositorio honetan WEC ikastaroan zehar egindako ariketak bildu ditut, HTML e
 
 **3c:** script-ari `defer` jartzen badiogu, `head`-ean egon arren, emaitza berdina lortzen dugu.
 
-**3d:** *(oraindik osatzeko / bideratzeke)*
+**3d:** Kontsolean agertzen dela Ana izena
 
 ## Ariketa 4
 

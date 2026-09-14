@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Variables JS</title>
+<style>
+  body { font-family: monospace; background:#1e1e1e; color:#d4d4d4; padding:2rem; }
+  table { border-collapse: collapse; width:100%; max-width:700px; }
+  th, td { border:1px solid #444; padding:8px 12px; text-align:left; }
+  th { background:#333; }
+  .tipo { color:#4fc1ff; }
+  .valor { color:#ce9178; }
+  h1 { color:#dcdcaa; }
+  .aviso { background:#442; border-left:4px solid #cc0; padding:10px; margin-bottom:1rem; color:#eec; max-width:700px;}
+</style>
+</head>
+<body>
+
+<h1>Variables JavaScript</h1>
+
+<div class="aviso">
+  ⚠️ Nota: <code>Infinity(8.5)</code> y <code>-Infinity(-200)</code> no son código válido
+  (Infinity no es una función). Se corrigieron a <code>8.5</code> y <code>-200</code> para que el ejemplo funcione.
+</div>
+
+<table id="tabla">
+  <tr><th>Variable</th><th>Tipo (typeof)</th><th>Valor</th></tr>
+</table>
+
+<script>
+  let verdadero = true;
+  let falso = false;
+  let nulo = null;
+  let x = undefined; // undefined
+  let edad = 22;
+  let nota = 8.5;
+  let aura = -200;
+  let kontudirua = BigInt(9000000000324234);
+  let txt = "Kaixo";
+  let unkwon = Symbol("foo");
+
+  const variables = {
+    verdadero, falso, nulo, x, edad, nota, aura, kontudirua, txt, unkwon
+  };
+
+  const tabla = document.getElementById("tabla");
+
+  for (const nombre in variables) {
+    const valor = variables[nombre];
+    const tipo = typeof valor;
+
+    // Representación en texto según el tipo
+    let valorTexto;
+    if (valor === null) {
+      valorTexto = "null";
+    } else if (valor === undefined) {
+      valorTexto = "undefined";
+    } else if (tipo === "bigint") {
+      valorTexto = valor.toString() + "n";
+    } else if (tipo === "symbol") {
+      valorTexto = valor.toString();
+    } else {
+      valorTexto = String(valor);
+    }
+
+    const fila = document.createElement("tr");
+    fila.innerHTML = `<td>${nombre}</td><td class="tipo">${tipo}</td><td class="valor">${valorTexto}</td>`;
+    tabla.appendChild(fila);
+
+    // También en consola
+    console.log(nombre, "->", tipo, "->", valorTexto);
+  }
+</script>
+
+</body>
+</html>

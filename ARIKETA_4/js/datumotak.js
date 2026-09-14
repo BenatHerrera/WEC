@@ -1,0 +1,10 @@
+let verdadero = true;
+let falso = false;
+let nulo = null;
+let x= undefined; //undefined
+let edad = 22;
+let nota = Infinity(8.5);
+let aura = -Infinity(-200);
+let kontudirua = BigInt(9000000000324234);
+let txt = "Kaixo";
+let unkwon= Symbol("foo");
