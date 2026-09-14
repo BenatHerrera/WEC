@@ -15,9 +15,9 @@
 
 - 03a y 03b / body-an kargatzen baldin baditugu kontoslean sartzerakoan ikus dezakegu TITULUA edo 'h1' etiketa arrapatzen duela, beraz alderantziz eginda 'null' emango du.
 
-- 03c defer jartzen baldin badugu script batean head-ean exekutatuko da berdin berdin. 
+- 03c defer jartzen baldin badugu script batean head-ean, lehenengo htmla agrtuko da eta gero exekutatuko da berdin berdin. 
 
-- 03d
+- 03d aldagaia const barik jartzen badugu ez doa. const nombre = "Ana"; console.log(nombre);
 
 ## Ariketa 4
 - 
