@@ -1,30 +1,36 @@
-# WEC EGINDAKO ARIKETAK
+# WEC Egindako Ariketak
+
+<img src="https://github.com/user-attachments/assets/73d9be3c-54f2-487f-805b-1e689c997b6e" width="500">
+
+Errepositorio honetan WEC ikastaroan zehar egindako ariketak bildu ditut, HTML eta JavaScript-eko kontzeptuak praktikan jartzeko.
 
 ## Ariketa 1
-- [Ver la página principal (Index.html)](/ARIKETA1/Ariketa1.html)
-- [Explorar carpeta de JavaScript](/ARIKETA1/js/)
+
+- [Ikusi orri nagusia (Ariketa1.html)](/ARIKETA1/Ariketa1.html)
+- [Arakatu JavaScript karpeta](/ARIKETA1/js/)
 
 ## Ariketa 2
-- [Ver Ariketa 2](/ARIKETA_2/Ariketa2.html)
-- [Ver código fuente](/ARIKETA_2/)
-- Fitxategien ordena: Lehenengo funtzioak kargatu bestela app.js kargatzerakoan ez dira exekutatuko
 
-## Ariketa 3 
-- [Ver Ariketa 3](/ARIKETA_3/Ariketa3.html)
-- [Ver código fuente](/ARIKETA_3/)
+- [Ikusi Ariketa 2](/ARIKETA_2/Ariketa2.html)
+- [Ikusi kode iturria](/ARIKETA_2/)
 
-- 03a y 03b / body-an kargatzen baldin baditugu kontoslean sartzerakoan ikus dezakegu TITULUA edo 'h1' etiketa arrapatzen duela, beraz alderantziz eginda 'null' emango du.
+**Oharra:** fitxategien karga-ordena garrantzitsua da. Lehenengo funtzioak kargatu behar dira, bestela `app.js` kargatzerakoan ez dira exekutatuko.
 
-- 03c defer jartzen baldin badugu script batean head-ean, lehenengo htmla agrtuko da eta gero exekutatuko da berdin berdin. 
+## Ariketa 3
 
-- 03d aldagaia const barik jartzen badugu ez doa. const nombre = "Ana"; console.log(nombre);
+- [Ikusi Ariketa 3](/ARIKETA_3/Ariketa3.html)
+- [Ikusi kode iturria](/ARIKETA_3/)
+
+**3a eta 3b:** script-a `body`-aren barruan kargatzen badugu, kontsolan sartzerakoan ikus dezakegu titulua (`h1` etiketa) ondo hartzen duela. Alderantziz eginez gero, ordea, `null` itzultzen du, oraindik elementua kargatu ez delako.
+
+**3c:** script-ari `defer` jartzen badiogu, `head`-ean egon arren, emaitza berdina lortzen dugu.
+
+**3d:** *(oraindik osatzeko / bideratzeke)*
 
 ## Ariketa 4
-- 
-- 
-- 
 
-## Ariketa 5-
-- 
-- 
-- 
+*(Lanean — laster osatuko dut atal hau)*
+
+## Ariketa 5
+
+*(Lanean — laster osatuko dut atal hau)*
