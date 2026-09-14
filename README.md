@@ -29,7 +29,7 @@ Errepositorio honetan WEC ikastaroan zehar egindako ariketak bildu ditut, HTML e
 
 ## Ariketa 4
 
-*(Lanean — laster osatuko dut atal hau)*
+**4:** Aldagai mota ezberdinak erabili eta frogatu haien erabilera.
 
 ## Ariketa 5
 
